@@ -1,3 +1,5 @@
+Description: Correct spelling mistakes
+Author: Alan Haggai Alavi <alanhaggai@alanhaggai.org>
 --- a/lib/Template/Plugin/Cycle.pm
 +++ b/lib/Template/Plugin/Cycle.pm
 @@ -200,7 +200,7 @@
