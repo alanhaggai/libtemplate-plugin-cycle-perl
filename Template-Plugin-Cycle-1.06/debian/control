@@ -1,0 +1,25 @@
+Source: libtemplate-plugin-cycle-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: libparams-util-perl (>= 0.20), libtemplate-perl (>= 2.10),
+ perl
+Maintainer: Alan Haggai Alavi <alanhaggai@alanhaggai.org>
+Standards-Version: 3.8.4
+Homepage: http://search.cpan.org/dist/Template-Plugin-Cycle/
+
+Package: libtemplate-plugin-cycle-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}, libparams-util-perl (>= 0.20),
+ libtemplate-perl (>= 2.10), perl
+Description: Cyclically insert into a Template from a sequence of values
+ Sometimes, apparently almost exclusively when doing alternating table row
+ backgrounds, you need to print an alternating, cycling, set of values into a
+ template.
+ .
+ Template::Plugin::Cycle is a small, simple, and hopefully DWIM solution to
+ these sorts of tasks.
+ .
+ It can be used either as a normal Template::Plugin, or can be created directly
+ and passed in as a template argument, so that you can set up situations where
+ it is implicitly available in every page.
