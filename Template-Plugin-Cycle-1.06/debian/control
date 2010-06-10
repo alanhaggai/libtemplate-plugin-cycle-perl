@@ -4,9 +4,12 @@ Priority: optional
 Build-Depends: debhelper (>= 7)
 Build-Depends-Indep: libparams-util-perl (>= 0.20), libtemplate-perl (>= 2.10),
  perl
-Maintainer: Alan Haggai Alavi <alanhaggai@alanhaggai.org>
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Alan Haggai Alavi <alanhaggai@alanhaggai.org>
 Standards-Version: 3.8.4
 Homepage: http://search.cpan.org/dist/Template-Plugin-Cycle/
+Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/libtemplate-plugin-cycle-perl/
+Vcs-Browser: http://svn.debian.org/viewsvn/pkg-perl/trunk/libtemplate-plugin-cycle-perl/
 
 Package: libtemplate-plugin-cycle-perl
 Architecture: all
